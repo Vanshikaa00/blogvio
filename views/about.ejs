@@ -1,0 +1,30 @@
+<html>
+    <%- include('./partials/head.ejs') %>
+
+    <body>
+        <nav>
+            <div class="title-site">
+                <a href="/"><h1>Blog</h1></a>
+                <p>A blogging Site</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="/">Blogs</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/blogs/create">New Blog</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="about content">
+            <h2>About Us</h2>
+            <p>This is a mini blogging application made to learn node js, express, mongoDB.</p>
+            <p> The user can perform operations like create a blog, delete it and navigate a particular blog.</p>
+            <p> For frontend rendering EJS view engine templates are used. </p>
+        </div>
+        <%- include('./partials/footer.ejs') %>
+    </body>
+</html>
