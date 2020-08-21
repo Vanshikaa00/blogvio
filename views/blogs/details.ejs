@@ -5,12 +5,12 @@
   <%- include("../partials/nav.ejs") %>
 
   <div class="details content">
-    <h2><%= blog.title %></h2>
+    <h2 class="colorme"><%= blog.title %></h2>
     <div class="content">
-      <p><%= blog.body %></p>
+      <p class="colorme1"><%= blog.body %></p>
     </div>
     <a class="delete" data-doc="<%= blog._id %>">
-      <img src="/can.png" alt="trash can icon">
+     <span class="material-icons">delete</span>
     </a>
   </div>
 

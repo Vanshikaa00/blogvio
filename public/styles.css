@@ -29,10 +29,10 @@
     }
     nav li{
       list-style-type: none;
-      margin-left: 20px;
+      margin-left: 15px;
     }
     nav h1{
-      font-size: 3em;
+      font-size: 2em;
     }
     nav p, nav a{
       color: #777;
@@ -104,7 +104,7 @@
       margin-top: 20px;
       background: crimson;
       color: white;
-      padding: 6px;
+      padding: 10px;
       border: 0;
       font-size: 1.2em;
       cursor: pointer;
@@ -117,3 +117,17 @@
       width: 100%;
       text-align: center;
     }
+
+    .darkmode--activated .colorme{
+      color:#23EBC3;
+    }
+
+    .darkmode--activated .colorme1{
+      color:white;
+    }
+
+    .darkmode--activated .colorme3 {
+      color:crimson;
+    }
+
+    .darkmode--activated .material-icons { color:white; }
