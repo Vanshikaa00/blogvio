@@ -8,7 +8,7 @@ const blogRoutes=require('./routes/blogRoutes')
 const app = express();
 
 //connect to mongo db atlas 
-const dbURI = 'mongodb+srv://shika:shenwi1234@nodelearndb.rgxuc.mongodb.net/node-learn-db?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://<username>:<password>@nodelearndb.rgxuc.mongodb.net/node-learn-db?retryWrites=true&w=majority';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => app.listen(3000))
     .catch((err) => console.log(err));
